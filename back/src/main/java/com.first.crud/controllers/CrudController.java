@@ -7,7 +7,7 @@ import java.util.List;
 
 @RestController
 
-@RequestMapping("/")
+@RequestMapping("/teste")
 public class CrudController {
 
     private List<String> items = new ArrayList<>();
