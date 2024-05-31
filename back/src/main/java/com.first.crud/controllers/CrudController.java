@@ -24,9 +24,8 @@ public class CrudController {
         return ResponseEntity.ok(allItems);
     }
 
-//    @PostMapping
-//    public String addItem(@RequestBody String item) {
-//        items.add(item);
-//        return "Item added successfully";
-//    }
+    @PostMapping
+    public ResponseEntity addItem(@RequestBody String item) {
+
+    }
 }
