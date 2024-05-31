@@ -16,5 +16,5 @@ public class Annotation {
     @Id @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private String id;
 
-    private String annotation;
+    private String description;
 }
